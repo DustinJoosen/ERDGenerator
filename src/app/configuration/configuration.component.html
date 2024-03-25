@@ -1,0 +1,11 @@
+<div class="bottom-panel" [style.height.px]="panelOpen ? 600 : 0">
+  <button class="toggle-bottom-panel-btn" (click)="togglePanel()">{{ this.panelOpen ? 'v' : '^' }}</button>
+  <ul class="conf-nav">
+    <li (click)="setScreen(0)">Data</li>
+    <li (click)="setScreen(1)">Relations</li>
+  </ul>
+  <div class="current-screen">
+    <div *ngComponentOutlet="selected"></div>
+  </div>
+</div>
+

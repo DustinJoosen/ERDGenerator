@@ -1,0 +1,7 @@
+<div class="column" *ngIf="column">
+  <span class="column-name">{{ column.name }}</span>
+    <span class="column-type">({{ column.type }})</span>
+    <span class="column-required">
+      <input type="checkbox" [checked]="column.required" disabled />
+    </span>
+</div>

@@ -1,0 +1,10 @@
+<div *ngIf="tables">
+  <div class="table" *ngFor="let table of tables" cdkDrag>
+    <p class="text-center">{{ table.name }}</p>
+    <hr/>
+    <app-column-header></app-column-header>
+    <div class="column-block" *ngFor="let column of table.columns">
+      <app-column [column]="column"></app-column>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,20 @@
+textarea {
+  width: 100%;
+  resize: none;
+  box-sizing: border-box;
+  height: 99%;
+  border: none;
+  outline: none;
+}
+
+.reload {
+  border: 1px solid rgb(128, 128, 128);
+  background-color: white;
+  padding: 5px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+}

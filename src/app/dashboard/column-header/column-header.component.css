@@ -1,0 +1,26 @@
+.column {
+  margin: 2px;
+  width: 100%;
+  font-weight: bolder;
+}
+
+.column span {
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+.column span {
+  padding: 3px;
+}
+
+.column-name {
+  width: 50%;
+}
+
+.column-type {
+  width: 35%;
+}
+
+.column-required {
+  width: 15%;
+}
